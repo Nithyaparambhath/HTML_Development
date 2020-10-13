@@ -2,14 +2,14 @@ Website Template
 
 Test Project
 
-Please complete the following test project. You will find the test site PSD located in the "psd" folder in the root directory. The file structure is very simple. All of our websites will follow a similar structure as presented in this test project. Please place the correct data into the corresponding file.
+Please complete the following test project. You will find the test site PSD located in the "PSD" folder in the root directory. The file structure is very simple. All of our websites will follow a similar structure as presented in this test project. Please place the correct data into the corresponding file.
 
 For example:
 
     Everything above the big photo should be placed in the header.html file.
     Everything underneath the column area should go into the footer.
 
-All of the fonts needed for this project are google fonts. You will be able to imbed the fonts using the google font API.
+All of the fonts needed for this project are google fonts or create a new folder with name "Fonts" and use @font-face. 
 
 Rules for making website:
 
