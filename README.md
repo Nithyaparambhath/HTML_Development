@@ -14,7 +14,8 @@ Rules for making website:
     - Please make all logos seperate layers. Which means the School name should be one layer and the background of the header a seperate layer.
     - No Inline styles
     - No IMG tags.
-    - Make the site responsive and should fit in all screen resolutions.
+    - Make the site responsive and should fit in all screen resolutions.Use Flex and Grid CSS properties for making sites responsive than using Bootstrap.
+    - Try to make the banner images sliding and use a dummy video embedded.
 
 Requirements
 
