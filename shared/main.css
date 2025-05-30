@@ -1,1 +1,157 @@
 /* CSS FILE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header Section */
+
+/* header icon section */
+.top-section {
+    width: 100%;
+
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    gap: 20px;
+
+
+}
+
+hr {
+    height: 0.5px;
+    background-color: #ccc;
+    border: none;
+}
+
+.icon-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+
+.icon-links a i {
+    margin-right: 5px;
+}
+
+/* Logo section */
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    background-image: url(../images/Jacksonville-headerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    height: 150px;
+}
+
+.logo-section img {
+    height: 100px;
+    width: auto;
+}
+
+/* Main Navbar Section */
+nav {
+    background-color: #093e52;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-item:hover::after,
+.nav-item.active::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60%;
+    background: #f5c518;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #f5c518;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0px auto;
+}
+
+/* Responsive code for Header Section */
+@media only screen and (max-width: 768px) {
+
+    /* Styles for tablets and phones */
+    .icon-links a {
+        font-size: 10px;
+    }
+
+    .logo-section img {
+        height: 65px;
+
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #043C5B;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .nav-dot {
+        display: none;
+    }
+
+}
