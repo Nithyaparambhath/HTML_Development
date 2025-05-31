@@ -580,6 +580,12 @@ nav {
     }
 }
 
+@media only screen and (max-width: 613px) {
+    .school-info {
+        padding-left: 10px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     /* Styles for tablets and phones */
@@ -679,6 +685,19 @@ nav {
     }
 }
 
+@media only screen and (max-width: 568px) {
+    .school-info {
+
+        padding-left: 0px;
+
+
+    }
+
+    .school-info p {
+
+        font-size: 11px;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .news-section {
@@ -708,9 +727,6 @@ nav {
     .footer-section {
         padding: 20px 25px 20px 0px;
     }
-}
-
-@media only screen and (max-width: 480px) {
 
     .banner-content h5 {
         font-size: 6px;
@@ -719,4 +735,49 @@ nav {
     .banner-content h1 {
         font-size: 26px;
     }
+
+    .school-info {
+
+        padding-left: 10px;
+
+    }
+
+    .school-info p {
+
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .school-info {
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 43px;
+    }
+
+    .school-info p {
+        font-size: 17px;
+    }
+
+    .fortify-logo img {
+        height: 83px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .school-info {
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 43px;
+    }
+
+    .school-info p {
+        font-size: 17px;
+    }
+
+    .fortify-logo img {
+        height: 83px;
+    }
+
 }
