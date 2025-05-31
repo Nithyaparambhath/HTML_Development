@@ -41,9 +41,10 @@ hr {
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
     border-left: 1px solid gray;
     padding-left: 10px;
+    font-weight: 500;
 }
 
 .icon-links a i {
@@ -187,7 +188,7 @@ nav {
 }
 
 .overlay {
-    background: rgba(0, 60, 80, 0.81);
+    background: rgb(0 60 80);
     background-image: url(../images/leaf-img.png);
     background-size: cover;
     background-position: center;
@@ -231,6 +232,7 @@ nav {
     font-weight: 600;
     margin-bottom: 15px;
     padding: 0px 54px;
+    color: #093e52;
 
 }
 
@@ -239,6 +241,7 @@ nav {
     font-size: 23px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #093e52;
 
 }
 
@@ -268,12 +271,15 @@ nav {
 
 .event-content h5 {
     font-size: 15px;
-    font-weight: 00;
+    font-weight: 600;
+    color: #15566a;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .event-content p {
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 
@@ -282,7 +288,8 @@ nav {
 .news-section {
     display: flex;
     justify-content: center;
-    border-bottom: 2px dotted;
+    border-bottom: 2px dotted #15566a;
+    ;
     padding: 10px 0px;
 
 }
@@ -292,13 +299,17 @@ nav {
 }
 
 .news-content h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #15566a;
     font-family: "Montserrat Alternates", sans-serif;
-    font-size: 17px;
 }
 
 .news-content p {
     margin-top: 20px;
     font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .arrow-btn {
@@ -306,7 +317,10 @@ nav {
 }
 
 .arrow-btn a {
-    color: #000;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    color: #15566a;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -320,6 +334,7 @@ nav {
 
 .two-arrows a {
     margin-right: 20px;
+
 }
 
 
@@ -348,12 +363,16 @@ nav {
     color: #f5c518;
     font-size: 10px;
     letter-spacing: 5px;
+    font-family: "Ancizar Serif", serif;
+    font-weight: 300;
 }
 
 .banner-content h1 {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 43px;
+    font-family: "Ancizar Serif", serif;
+    font-weight: 300;
 }
 
 /* Featured Section */
@@ -430,9 +449,10 @@ nav {
 
 .arrow-btn1 a {
     color: #ffffff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: 600;
 }
 
 .arrow-btn1 i {
@@ -458,10 +478,11 @@ nav {
 }
 
 .footer-section h1 {
-    margin: 0;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: normal;
     padding-left: 58px;
+    font-family: "Ancizar Serif", serif;
+    font-weight: 300;
 }
 
 .jca-logo {
@@ -519,9 +540,10 @@ nav {
 
 
 .footer-copyright p {
-    font-size: 15px;
+    font-size: 13px;
     padding: 27px;
     text-align: center;
+    font-weight: 500;
 }
 
 .edunet-logo-section {
